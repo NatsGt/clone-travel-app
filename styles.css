@@ -25,6 +25,15 @@ a {
   color: inherit;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Roboto, sans-serif;
+}
+
 /*Containers*/
 .side-container {
   display: flex;
@@ -56,6 +65,7 @@ a {
 /*Text*/
 .p-text {
   font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 /*Main container*/
 .main-container {
@@ -83,6 +93,15 @@ a {
 .down-title {
   text-align: right;
   margin: 0 47px;
+}
+
+.vertical-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.width-container {
+  width: 80%;
 }
 
 /*About section*/
@@ -182,7 +201,6 @@ a {
 }
 
 .work-description-container {
-  width: 80%;
   height: 60%;
 }
 
@@ -239,4 +257,116 @@ a {
 
 .work-button:hover {
   cursor: pointer;
+}
+
+/*Company information*/
+.company-container {
+  background-color: #fd8f36;
+  height: 85vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: relative;
+}
+
+.company-info-container {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.company-card-container {
+  display: flex;
+  margin-top: 20px;
+}
+.company-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company-text {
+  padding: 20px 0;
+  width: 620px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.title-card {
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  margin: 30px 20px 0;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.card-text {
+  font-size: 0.875rem;
+  margin: 20px 20px 30px;
+  text-align: center;
+}
+
+.card-icon {
+  font-size: 64px;
+}
+
+.company-over-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/*Staff*/
+
+.staff-container {
+  background-color: #deddde;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.up-staff {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.staff-card {
+  position: relative;
+  display: inline-block;
+  color: #deddde;
+  margin: 0;
+}
+
+.staff-img {
+  width: 350px;
+}
+
+.staff-info {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  width: 100%;
+}
+
+.staff-line {
+  margin-bottom: 75px;
+  margin-left: 15px;
+}
+
+.staff-name {
+  margin-bottom: 40px;
+}
+
+.down-staff {
+  margin: 25px 0 40px;
+}
+
+.staff-title {
+  margin: 20px 0;
 }
