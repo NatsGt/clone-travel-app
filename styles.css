@@ -364,9 +364,60 @@ h6 {
 }
 
 .down-staff {
-  margin: 25px 0 40px;
+  margin: 25px 0 150px;
+  width: 60%;
 }
 
 .staff-title {
   margin: 20px 0;
+}
+
+/*App info*/
+.app-container {
+  background-color: #000000;
+  color: #deddde;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-info-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.app-description-container {
+  width: 90%;
+  height: 80%;
+}
+
+.app-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app-rigth-down {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app-button {
+  margin-left: 0;
+  background-color: #5324c1;
+}
+
+.app-img-container {
+  position: relative;
+}
+.app-img {
+  position: absolute;
+  width: 550px;
+  height: 409px;
+  object-position: 40.91% 50%;
+  background-position: 40.91% 50%;
+  margin: -134px 0 0 auto;
 }
